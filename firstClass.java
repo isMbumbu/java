@@ -41,8 +41,7 @@ class Lion{
     public void sound(){
         System.out.println("Roars");
     }
-}
-class Main{
+
     public static void main(String[] args){
         Lion drey= new Lion("brown",45,"male");
         System.out.println("This new lion is color: "+drey.color+"and in kilograms is: "+drey.size+" kgs. It is also "+drey.gender);
