@@ -25,7 +25,7 @@ public class grading implements grades{
     }
  }
 public static void main(String []args){
-    grading andrew=new grading(89);
+    grading andrew=new grading(45);
     System.out.println("The grades presented are "+andrew.getGrade());
 }
 }
