@@ -11,5 +11,6 @@ public class input{
     System.out.println("Input other value");
     y=scanner.nextInt();
      System.out.println(x+y);
+     scanner.close();
     }
 }

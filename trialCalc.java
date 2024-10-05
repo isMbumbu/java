@@ -13,6 +13,7 @@ public class trialCalc {
     System.out.println("Input value of y");
     y=scanner.nextInt();
     System.out.println(x+y);
+    scanner.close();
     }
 
 }
